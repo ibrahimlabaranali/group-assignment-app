@@ -26,8 +26,8 @@ if class_code:
     else:
         df = pd.DataFrame(columns=["Registration Number", "Group"])
 
-    group_limits = 5
-    groups = ["Group 1", "Group 2", "Group 3", "Group 4", "Group 5", "Group 6"]
+    group_limits = 6
+    groups = ["Atlas", "Eureka", "Nova", "Zenith", "Pulse", "Momentum"]
     group_counts = df["Group"].value_counts().to_dict()
     available_groups = [g for g in groups if group_counts.get(g, 0) < group_limits]
 
