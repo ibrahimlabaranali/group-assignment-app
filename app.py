@@ -6,7 +6,7 @@ import glob
 
 st.set_page_config(page_title="Group Assignment by Class Group", layout="centered")
 
-st.title("Student Group Assignment")
+st.title("DDA Presentation Group Assignment")
 st.markdown(
     "Select your **Class Group (A–F)** and enter your **Registration Number**. "
     "You will be randomly assigned to one of 6 uniquely named project groups."
