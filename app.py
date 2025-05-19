@@ -8,15 +8,15 @@ st.set_page_config(page_title="Group Assignment by Class Group", layout="centere
 
 st.title("DDA Presentation Group Assignment")
 st.markdown(
-    "Select your **Class Group (A–F)** and enter your **Registration Number**. "
-    "You will be randomly assigned to one of 6 uniquely named project groups."
+    "Select your **Class Group (A–E)** and enter your **Registration Number**. "
+    "You will be randomly assigned to one of 5 uniquely named project groups."
 )
 
 # Step 1: Select Class Group
-class_group = st.selectbox("Select your Class Group", ["A", "B", "C", "D", "E", "F"])
+class_group = st.selectbox("Select your Class Group", ["A", "B", "C", "D", "E"])
 
 # Unique group names
-group_names = ["Atlas", "Eureka", "Nova", "Zenith", "Pulse", "Momentum"]
+group_names = ["Atlas", "Eureka", "Nova", "Zenith", "Momentum"]
 group_limit = 5
 
 # Directory to store CSVs
